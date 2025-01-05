@@ -1,0 +1,114 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('ntt2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Destinasi */
+#destinasi {
+    background-image: url('ntt2.jpg');
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#destinasi h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.destinasi-list {
+     
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destinasi-item {
+background-color: #fff;
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.destinasi-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.destinasi-item h3 {
+    margin: 10px 0;
+}
+
+/* Testimoni */
+#testimoni {
+    background-color: #81BFDA;
+    padding: 40px 20px;
+    text-align: center;
+    color:#fff;
+}
+
+#testimoni h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
